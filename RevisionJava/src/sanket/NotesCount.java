@@ -49,6 +49,13 @@ public class NotesCount {
 			System.out.println("Notes 10 : "+note);
 			System.out.println("Avialable amount : "+amo);
 		}
+		if(amo>=5)
+		{
+			note=amo/5;
+			amo=amo-(note*5);
+			System.out.println("Notes 10 : "+note);
+			System.out.println("Avialable amount : "+amo);
+		}
 	}
 
 }
